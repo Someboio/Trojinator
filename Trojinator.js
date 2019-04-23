@@ -252,9 +252,9 @@ function embedIt(mess, part)
 	const embed = new RichEmbed()
 	var num = Math.floor(Math.random()*10)
 	let name = part+num+".gif"
-	const exampleEmbed = new Discord.RichEmbed()
+	const exampleEmbed = new Discord.RichEmbed();
 		//exampleEmbed.setUrl(name)
-	exampleEmbed.attachFiles([name])
+	exampleEmbed.attachFiles([name]);
 	exampleEmbed.setImage('attachment://'+name);
 	mess.channel.send(exampleEmbed);
 }
