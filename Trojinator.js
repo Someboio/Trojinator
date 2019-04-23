@@ -256,7 +256,7 @@ function embedIt(mess, part)
 	const exampleEmbed = new Discord.RichEmbed()
 		//.attachFiles([name])
 		//.setImage('attachment://'+name);
-		.setImage(img);
+		//.setImage(img);
 	mess.channel.send(exampleEmbed);
 }
 client.login(process.env.BOT_TOKEN)
