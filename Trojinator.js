@@ -31,6 +31,11 @@ function processCommand(mess)
 	let splitCommand = fullCommand.split(" ")
 	let pmand = splitCommand[1]
 	let arguments = splitCommand.slice(1)
+	if(pmand.search(/test/i)>-1)
+	{
+		mess.reply("Testing testing 1 2 1 2")
+		return
+	}
 	if(pmand.search(/boop/i)>-1)
 	{
 		boop(mess)
