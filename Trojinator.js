@@ -251,7 +251,7 @@ function embedIt(mess, part)
 {
 	const embed = new RichEmbed()
 	var num = Math.floor(Math.random()*10)
-	let name = "https://github.com/Someboio/Trojinator/"+part+num+".gif"
+	let name = "Someboio/Trojinator/"+part+num+".gif"
 	const exampleEmbed = new Discord.RichEmbed()
 		.attachFiles([name])
 		.setImage('attachment://'+name);
