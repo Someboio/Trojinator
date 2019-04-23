@@ -256,6 +256,7 @@ function embedIt(mess, part)
 		//exampleEmbed.setUrl(name)
 	//exampleEmbed.attachFiles([name]);
 	//exampleEmbed.setImage('attachment://'+name);
-	mess.channel.send(name);
+	const att = new Discord.Attachment(name)
+	mess.channel.send(att);
 }
 client.login(process.env.BOT_TOKEN)
