@@ -7,9 +7,6 @@ var admins = []
 adCount = 0
 var succChans = []
 succChanCount = 0
-client.on('ready',() => {
-	console.log(embed)
-})
 client.on('message',mess =>
 {
 	if(mess.author == client.user)
