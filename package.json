@@ -1,7 +1,7 @@
 {
   "name": "Trojinator",
   "description": "Thing Trojie asked for",
-  "version": "0.0.0",
+  "version": "10.15.3",
   "main": "Trojinator.js",
   "scripts": {
     "start": "node Trojinator.js"
