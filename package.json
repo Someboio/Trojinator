@@ -1,13 +1,13 @@
 {
   "name": "Trojinator",
   "description": "Thing Trojie asked for",
-  "version": "10.15.3",
+  "version": "0.0.0",
   "main": "Trojinator.js",
   "scripts": {
     "start": "node Trojinator.js"
   },
   "dependencies": {
-    "discord.js": "10.15.3",
+    "discord.js": "11.1.0",
     "request": "2.81.0"
   }
 }
